@@ -1,17 +1,12 @@
+using System;
 using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
 
-    private int _speed = 5;
-    private float _deadZone = -45;
+    private float _speed = 5;
+    private float _deadZone = -15;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -22,8 +17,9 @@ public class Gate : MonoBehaviour
         }
     }
 
-    public void SetNewSpeed(int i)
+    public void SetNewSpeed(float i)
     {
         _speed = i;
     }
+    
 }

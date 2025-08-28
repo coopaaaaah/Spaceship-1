@@ -26,4 +26,5 @@ public class Ship : MonoBehaviour
             ship.linearVelocity = Vector2.zero;
         }
     }
+    
 }
